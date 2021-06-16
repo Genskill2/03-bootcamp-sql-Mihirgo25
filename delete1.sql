@@ -1,6 +1,5 @@
-delete subjects.name from subjects
-subjects.id = 100
+delete from subject
 where subjects.name = 'History';
 
 delete from books_subjects
-where books_subjects.subject = 100;
+where books_subjects.subject = 9;
