@@ -1,5 +1,5 @@
 delete from books_subjects
 where books_subjects.subject = 9;
 
-delete from subject
+delete from subjects
 where subjects.name = 'History';
