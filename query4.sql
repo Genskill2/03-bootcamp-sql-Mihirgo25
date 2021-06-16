@@ -1,7 +1,7 @@
-select s.name
-from subjects s
-join books_subjects bs
-on bs.subject = s.id
-join books b
-on b.id = bs.book
-where b.title = 'Atomic habits';
+select subjects.name
+from subjects
+join books_subjects
+on books_subjects.subject = subects.id
+join books
+on books.id = books_subjects.book
+where books.title = 'Atomic habits';
