@@ -1,7 +1,5 @@
-delete
-from subjects s
-join books_subjects bs
-on bs.subject = s.id
-join books b
-on bs.book = books.id
+delete from subjects s,
 where s.name = 'History';
+
+delete from books_subjects bs
+where bs.subject = NULL;
