@@ -1,4 +1,5 @@
-delete name from subjects and subjects.id = 100
+delete subjects.name from subjects
+subjects.id = 100
 where subjects.name = 'History';
 
 delete from books_subjects
